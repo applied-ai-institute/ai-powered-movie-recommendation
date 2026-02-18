@@ -1,0 +1,11 @@
+{
+    "Total Movies": 9742,
+    "Total Genre Tags": 22084,
+    "Unique Genres": 20,
+    "Most Common Genre": "Drama",
+    "Most Common Count": 4361,
+    "Least Common Genre": "(no genres listed)",
+    "Least Common Count": 34,
+    "Average Tags per Movie": 2.27,
+    "Median Movie Count per Genre": 721.5
+}
