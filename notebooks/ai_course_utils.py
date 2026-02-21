@@ -34,7 +34,7 @@ def load_llm_from_env():
     model = os.getenv("LLM_MODEL")
     temperature = float(os.getenv("LLM_TEMPERATURE", "0.7"))
     
-    print(f"🤖 Loading LLM: {provider} / {model}")
+    print(f"Loading LLM: {provider} / {model}")
     
     # OpenAI (ChatGPT, GPT-4, etc.)
     if provider == "openai":
@@ -70,7 +70,7 @@ def load_llm_from_env():
     
     # Default fallback
     else:
-        print(f"⚠️  Unknown provider '{provider}', defaulting to OpenAI")
+        print(f"WARNING: Unknown provider '{provider}', defaulting to OpenAI")
         from langchain_openai import ChatOpenAI
         return ChatOpenAI(
             model=model or "gpt-4o-mini",
@@ -106,17 +106,17 @@ def load_use_case_config(filepath: str) -> Dict[str, str]:
             prompt_value = row['Prompt Value']
             config[prompt_type] = prompt_value
         
-        print(f"✓ Use case loaded: {filepath}")
+        print(f"Use case loaded: {filepath}")
         print(f"  Components: {', '.join(config.keys())}")
         
         return config
         
     except FileNotFoundError:
-        print(f"❌ Use case file not found: {filepath}")
+        print(f"ERROR: Use case file not found: {filepath}")
         print("Please provide a valid file path")
         raise
     except Exception as e:
-        print(f"❌ Error loading use case: {str(e)}")
+        print(f"ERROR: Error loading use case: {str(e)}")
         raise
 
 # ============================================================================
@@ -153,17 +153,17 @@ def load_taxonomy_from_excel(filepath: str) -> Dict:
                 'guidelines': row.get('Recommend using guidelines', '')
             }
         
-        print(f"✓ Taxonomy loaded: {filepath}")
+        print(f"Taxonomy loaded: {filepath}")
         print(f"  Genres: {len(taxonomy)} ({', '.join(list(taxonomy.keys())[:3])}...)")
         
         return taxonomy
         
     except FileNotFoundError:
-        print(f"❌ Taxonomy file not found: {filepath}")
+        print(f"ERROR: Taxonomy file not found: {filepath}")
         print("Please provide a valid file path")
         raise
     except Exception as e:
-        print(f"❌ Error loading taxonomy: {str(e)}")
+        print(f"ERROR: Error loading taxonomy: {str(e)}")
         raise
 
 # ============================================================================
@@ -192,12 +192,12 @@ def load_pdf_for_rag(filepath: str, chunk_size: int = 1000, chunk_overlap: int =
         from langchain_community.vectorstores import FAISS
         from langchain_openai import OpenAIEmbeddings
         
-        print(f"📄 Loading PDF: {filepath}")
+        print(f"Loading PDF: {filepath}")
         
         # Load PDF
         loader = PyPDFLoader(filepath)
         documents = loader.load()
-        print(f"  ✓ Loaded {len(documents)} pages")
+        print(f"  Loaded {len(documents)} pages")
         
         # Split into chunks
         text_splitter = RecursiveCharacterTextSplitter(
@@ -205,25 +205,25 @@ def load_pdf_for_rag(filepath: str, chunk_size: int = 1000, chunk_overlap: int =
             chunk_overlap=chunk_overlap
         )
         splits = text_splitter.split_documents(documents)
-        print(f"  ✓ Created {len(splits)} chunks")
+        print(f"  Created {len(splits)} chunks")
         
         # Create vector store
         embeddings = OpenAIEmbeddings()
         vectorstore = FAISS.from_documents(splits, embeddings)
-        print(f"  ✓ Vector store created")
+        print(f"  Vector store created")
         
         # Create retriever
         retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-        print(f"  ✓ Retriever ready (top 3 results)")
+        print(f"  Retriever ready (top 3 results)")
         
         return documents, vectorstore, retriever
         
     except FileNotFoundError:
-        print(f"❌ PDF file not found: {filepath}")
+        print(f"ERROR: PDF file not found: {filepath}")
         print("Please provide a valid file path")
         raise
     except Exception as e:
-        print(f"❌ Error loading PDF: {str(e)}")
+        print(f"ERROR: Error loading PDF: {str(e)}")
         raise
 
 # ============================================================================
@@ -247,8 +247,6 @@ def save_uploaded_file(uploaded_file, destination_folder: str = "uploaded_files"
             filepath = save_uploaded_file(uploaded)
             config = load_use_case_config(filepath)
     """
-    import os
-    
     # Create folder if doesn't exist
     os.makedirs(destination_folder, exist_ok=True)
     
@@ -257,7 +255,7 @@ def save_uploaded_file(uploaded_file, destination_folder: str = "uploaded_files"
     with open(filepath, "wb") as f:
         f.write(uploaded_file.getbuffer())
     
-    print(f"✓ File saved: {filepath}")
+    print(f"File saved: {filepath}")
     return filepath
 
 # ============================================================================
@@ -286,7 +284,7 @@ def display_config():
     }
     
     for key, name in keys.items():
-        status = "✓ Set" if os.getenv(key) else "✗ Not set"
+        status = "Set" if os.getenv(key) else "Not set"
         print(f"  {name:20} {status}")
     
     print("=" * 70)
@@ -310,12 +308,12 @@ def test_llm_provider(test_query: str = "Say hello in one sentence"):
         llm = load_llm_from_env()
         response = llm.invoke(test_query)
         
-        print("\n✅ LLM Test Successful!")
+        print("\nLLM Test Successful!")
         print(f"Response: {response.content}")
         return True
         
     except Exception as e:
-        print(f"\n❌ LLM Test Failed: {str(e)}")
+        print(f"\nERROR: LLM Test Failed: {str(e)}")
         return False
 
 # ============================================================================
@@ -372,7 +370,7 @@ SERPER_API_KEY=...
     with open(filepath, 'w') as f:
         f.write(sample_content)
     
-    print(f"✓ Sample environment file created: {filepath}")
+    print(f"Sample environment file created: {filepath}")
     print("  Copy this to .env and add your API keys")
 
 # ============================================================================
@@ -387,9 +385,9 @@ def quick_setup():
     
     # Check for .env file
     if not os.path.exists(".env"):
-        print("\n⚠️  No .env file found!")
+        print("\nWARNING: No .env file found!")
         create_sample_env_file()
-        print("\n📝 Next steps:")
+        print("\nNext steps:")
         print("  1. Copy .env.sample to .env")
         print("  2. Add your API keys to .env")
         print("  3. Run this setup again")
@@ -399,19 +397,19 @@ def quick_setup():
     display_config()
     
     # Test LLM
-    print("\n🧪 Testing LLM connection...")
+    print("\nTesting LLM connection...")
     success = test_llm_provider()
     
     if success:
-        print("\n✅ API Setup complete!")
-        print("\n📁 Data Files:")
+        print("\nAPI Setup complete!")
+        print("\nData Files:")
         print("  Provide file paths when calling functions:")
         print("    config = load_use_case_config('use_case.xlsx')")
         print("    taxonomy = load_taxonomy_from_excel('taxonomy.xlsx')")
         print("    docs, vs, retriever = load_pdf_for_rag('document.pdf')")
         return True
     else:
-        print("\n❌ Setup incomplete. Please check your .env configuration.")
+        print("\nERROR: Setup incomplete. Please check your .env configuration.")
         return False
 
 # ============================================================================
@@ -454,8 +452,8 @@ def get_streamlit_file_uploader_config():
 if __name__ == "__main__":
     print("AI Course Utilities Module v2.0")
     print("=" * 70)
-    print("\n🔧 API Keys: Configured in .env file")
-    print("📁 Data Files: Provided as function parameters\n")
+    print("\nAPI Keys: Configured in .env file")
+    print("Data Files: Provided as function parameters\n")
     print("\nUsage Examples:")
     print("\n1. Load LLM (from .env):")
     print("   from ai_course_utils import load_llm_from_env")
