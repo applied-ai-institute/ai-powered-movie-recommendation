@@ -1,0 +1,446 @@
+[
+    {
+        "cluster_id": 5,
+        "custom_genre": "Clever Heist Capers",
+        "description": "This genre unites films centered around smart, stylish criminals and their intricate schemes, blending suspense, wit, and high-stakes cons or heists. These movies focus on the thrill of the plan, the dynamics within the crew, and the clever twists that keep audiences guessing.",
+        "exemplar_overview": "When a seasoned thief assembles a diverse team to pull off the ultimate heist, they must outsmart rival criminals and law enforcement alike. As tensions rise and loyalties are tested, the crew navigates double-crosses and unexpected obstacles to claim their prize and secure their freedom.",
+        "included_movies": [
+            "Heist",
+            "To Catch a Thief",
+            "Trading Places",
+            "Heat",
+            "White Men Can't Jump",
+            "Gone in Sixty Seconds",
+            "The Italian Job",
+            "The Town",
+            "Small Time Crooks",
+            "Ocean's Eleven",
+            "Inside Man",
+            "Logan Lucky"
+        ]
+    },
+    {
+        "cluster_id": 8,
+        "custom_genre": "Global Espionage Thrillers",
+        "description": "These movies unite high-stakes spy missions, international intrigue, and covert operations where secret agents navigate deadly conspiracies and global threats to save the world.",
+        "exemplar_overview": "When a shadowy organization threatens to ignite a worldwide conflict using stolen nuclear technology, a seasoned intelligence operative must infiltrate enemy ranks, decode cryptic messages, and outwit double agents in a race against time to prevent global catastrophe.",
+        "included_movies": [
+            "Spy",
+            "The Hunt for Red October",
+            "GoldenEye",
+            "Spectre",
+            "Mission: Impossible",
+            "The Bourne Ultimatum",
+            "On Her Majesty's Secret Service",
+            "The Spy Who Loved Me",
+            "Moonraker",
+            "The Man with the Golden Gun",
+            "RED 2",
+            "Tomorrow Never Dies",
+            "Mission: Impossible III",
+            "True Lies",
+            "Tinker Tailor Soldier Spy"
+        ]
+    },
+    {
+        "cluster_id": 17,
+        "custom_genre": "Psych-Crime Thrillers",
+        "description": "This genre blends intense crime investigations with deep psychological intrigue, often featuring complex relationships, obsession, and the blurred lines between hunter and hunted.",
+        "exemplar_overview": "A seasoned detective teams up with a brilliant psychologist to track a cunning serial killer whose twisted mind challenges their own sanity, while personal emotions and dark pasts threaten to unravel the case.",
+        "included_movies": [
+            "Stakeout",
+            "Laura",
+            "Vertigo",
+            "Copycat",
+            "The Cell",
+            "Kalifornia",
+            "Se7en",
+            "Silence of the Lambs",
+            "Zodiac",
+            "Prisoners"
+        ]
+    },
+    {
+        "cluster_id": 18,
+        "custom_genre": "Samurai Assassin Revenge",
+        "description": "This genre unites films centered around elite assassins who live by a strict personal code, often inspired by samurai ethics, and who embark on intense, stylized quests for vengeance against deadly criminal underworlds.",
+        "exemplar_overview": "A lone assassin, guided by ancient warrior principles, is betrayed by her own clan and left for dead. Rising from the ashes, she embarks on a relentless journey to dismantle the syndicate that shattered her life, blending honor, precision, and brutal retribution.",
+        "included_movies": [
+            "Ghost Dog: The Way of the Samurai",
+            "The Killer",
+            "Kill Bill: Vol. 1",
+            "Kill Bill: Vol. 2",
+            "Assassins",
+            "Leon: The Professional",
+            "John Wick",
+            "Lady Snowblood"
+        ]
+    },
+    {
+        "cluster_id": 121,
+        "custom_genre": "Galactic Saga Adventures",
+        "description": "This genre encompasses epic space operas centered around the battle between good and evil in a vast galaxy, featuring heroic journeys, mystical powers, and interstellar conflicts that shape the fate of civilizations.",
+        "exemplar_overview": "In a galaxy torn by war, a young hero discovers their extraordinary abilities and joins a rebellion to overthrow a tyrannical empire. Alongside loyal allies and legendary mentors, they face impossible odds, uncover ancient secrets, and ignite hope for freedom across the stars.",
+        "included_movies": [
+            "Star Wars: The Last Jedi",
+            "Star Wars: The Force Awakens",
+            "Solo: A Star Wars Story",
+            "Star Wars: Episode II - Attack of the Clones",
+            "The Empire Strikes Back",
+            "Rogue One: A Star Wars Story",
+            "Star Wars: Episode III - Revenge of the Sith",
+            "Star Wars",
+            "Star Wars: Episode I - The Phantom Menace",
+            "Return of the Jedi",
+            "Guardians of the Galaxy",
+            "Battlestar Galactica",
+            "Dune",
+            "The Fifth Element",
+            "Star Trek"
+        ]
+    },
+    {
+        "cluster_id": 136,
+        "custom_genre": "Viral Apocalypse Thrillers",
+        "description": "This genre unites films centered around the outbreak and rapid spread of deadly viruses or infections that lead to societal collapse, featuring intense survival struggles, quarantine efforts, and the fight to find a cure amidst chaos.",
+        "exemplar_overview": "In a world devastated by a lethal airborne virus, a small group of survivors must navigate quarantined zones, evade infected hordes, and race against time to uncover a cure before humanity is wiped out.",
+        "included_movies": [
+            "Outbreak",
+            "28 Days Later",
+            "Day of the Dead",
+            "Contagion",
+            "The Happening",
+            "Resident Evil",
+            "28 Weeks Later",
+            "I Am Legend",
+            "World War Z",
+            "The Andromeda Strain"
+        ]
+    },
+    {
+        "cluster_id": 138,
+        "custom_genre": "Urban Grit & Velocity",
+        "description": "This genre combines fast-paced action, crime, and complex characters navigating gritty urban landscapes. It features intense police investigations, high-stakes chases, moral ambiguity, and the intertwining of law enforcement with the criminal underworld, often set against the backdrop of sprawling cities like Los Angeles and New York.",
+        "exemplar_overview": "In the neon-lit streets of a sprawling metropolis, a hardened detective and a rogue ex-con join forces to dismantle a ruthless crime syndicate. As they race against time through high-speed chases and shadowy alleyways, they confront betrayal, corruption, and their own haunted pasts, all while the city\u2019s pulse beats faster around them.",
+        "included_movies": [
+            "The Last Boy Scout",
+            "L.A. Confidential",
+            "Pulp Fiction",
+            "Narc",
+            "U Turn",
+            "Tequila Sunrise",
+            "Fast & Furious",
+            "Fast Five",
+            "Fast & Furious 6",
+            "Running Scared",
+            "15 Minutes",
+            "16 Blocks",
+            "48 Hrs.",
+            "The Freshman",
+            "Magnolia"
+        ]
+    },
+    {
+        "cluster_id": 152,
+        "custom_genre": "Galactic Frontier Epics",
+        "description": "These movies belong together as they all explore the vast, adventurous, and often perilous journeys of starship crews navigating complex interstellar conflicts, moral dilemmas, and the quest for peace and understanding in a richly imagined future universe.",
+        "exemplar_overview": "In the distant future, the crew of the starship Horizon must unite to prevent a rogue faction from igniting a war that could destroy the fragile peace between human and alien civilizations. Facing relentless enemies, ethical quandaries, and the unknown perils of deep space, they must rely on courage, friendship, and advanced technology to safeguard the galaxy's future.",
+        "included_movies": [
+            "Star Trek: First Contact",
+            "Star Trek: Nemesis",
+            "Star Trek Beyond",
+            "Star Trek: The Motion Picture",
+            "Star Trek VI: The Undiscovered Country",
+            "Star Trek Into Darkness",
+            "Star Trek II: The Wrath of Khan",
+            "Star Trek IV: The Voyage Home",
+            "Star Trek: Insurrection",
+            "Star Trek: Generations",
+            "Star Trek"
+        ]
+    },
+    {
+        "cluster_id": 185,
+        "custom_genre": "Heist & Hostage Havoc",
+        "description": "This genre combines high-stakes crime capers, daring kidnappings, and intense hostage negotiations, blending suspense, dark humor, and action-packed plots where characters navigate chaotic schemes and power struggles.",
+        "exemplar_overview": "When a group of unlikely criminals botch a kidnapping that spirals into a city-wide manhunt, a seasoned negotiator and a cunning bounty hunter must team up to outwit ruthless gangsters and corrupt officials before the ransom clock runs out.",
+        "included_movies": [
+            "Horrible Bosses 2",
+            "Inside Man",
+            "For a Few Dollars More",
+            "The Taking of Pelham 1 2 3",
+            "Hostage",
+            "The Negotiator",
+            "The Italian Job",
+            "The Way of the Gun",
+            "Suicide Kings",
+            "Faster, Pussycat! Kill! Kill!",
+            "The Edukators",
+            "Midnight Run"
+        ]
+    },
+    {
+        "cluster_id": 188,
+        "custom_genre": "Emotional Southern & New York Dramas",
+        "description": "These films explore complex family dynamics, romantic entanglements, and personal struggles set against the contrasting backdrops of the American South and New York City, blending emotional depth with cultural and societal nuances.",
+        "exemplar_overview": "In a tale of intertwined destinies, a troubled Southern man confronts his painful past while falling for a compassionate New York psychiatrist, revealing the delicate balance between family loyalty and personal desire amidst the vibrant pulse of two distinct worlds.",
+        "included_movies": [
+            "The Prince of Tides",
+            "You Can Count on Me",
+            "A Streetcar Named Desire",
+            "Everyone Says I Love You",
+            "The Age of Innocence",
+            "Fried Green Tomatoes",
+            "The Hours",
+            "Manhattan",
+            "Steel Magnolias",
+            "Breakfast at Tiffany's"
+        ]
+    },
+    {
+        "cluster_id": 228,
+        "custom_genre": "Robin Hood Rebellion",
+        "description": "This genre unites films centered on the legendary Robin Hood, blending themes of justice, rebellion against tyranny, and romance set in medieval England. These movies showcase the iconic outlaw's fight against corrupt rulers and his efforts to protect the oppressed, often mixing action, drama, and humor.",
+        "exemplar_overview": "In a land ruled by greed and corruption, a noble outlaw rises to challenge the oppressive regime. With his band of loyal followers, he steals from the rich to give to the poor, battles treacherous foes, and fights to restore justice and honor to his homeland\u2014all while navigating love and loyalty.",
+        "included_movies": [
+            "The Adventures of Robin Hood",
+            "Robin Hood: Men in Tights",
+            "Robin Hood: Prince of Thieves",
+            "Robin Hood (2010)",
+            "Robin Hood (2018)",
+            "Robin and Marian",
+            "Robin Hood: The Legend of Sherwood",
+            "Robin Hood: The Movie"
+        ]
+    },
+    {
+        "cluster_id": 251,
+        "custom_genre": "Gotham Vigilante Saga",
+        "description": "This genre unites films centered on the dark, complex journey of Bruce Wayne as he transforms into Batman, battling crime and corruption in Gotham City. These movies blend intense action, psychological depth, and a brooding atmosphere, exploring themes of justice, redemption, and the duality of heroism.",
+        "exemplar_overview": "After years of absence, a seasoned Batman returns to a Gotham City overrun by new threats and old enemies. Struggling with his own past and the city's future, he must forge uneasy alliances and confront his darkest fears to restore hope to a city on the brink of chaos.",
+        "included_movies": [
+            "Batman: Mask of the Phantasm",
+            "The Dark Knight Rises",
+            "The Dark Knight",
+            "Batman Returns",
+            "Batman: The Dark Knight Returns, Part 1",
+            "Batman Begins",
+            "Batman"
+        ]
+    },
+    {
+        "cluster_id": 289,
+        "custom_genre": "Whimsical Inventor Adventures",
+        "description": "This genre features the charming and quirky escapades of an eccentric inventor and his clever dog, blending inventive gadgets, lighthearted mysteries, and heartwarming friendships in a delightfully whimsical world.",
+        "exemplar_overview": "When eccentric inventor Wallace and his resourceful dog Gromit stumble upon a mysterious plot threatening their peaceful town, they must combine Wallace's quirky inventions and Gromit's keen intelligence to save the day, all while sharing laughs, solving puzzles, and enjoying the simple pleasures of cheese and companionship.",
+        "included_movies": [
+            "A Close Shave",
+            "A Grand Day Out",
+            "Wallace & Gromit: The Curse of the Were-Rabbit",
+            "The Wrong Trousers",
+            "A Matter of Loaf and Death",
+            "The Adventures of Tintin",
+            "Coraline",
+            "Fantastic Mr. Fox"
+        ]
+    },
+    {
+        "cluster_id": 400,
+        "custom_genre": "Twisted Justice Thrillers",
+        "description": "These movies revolve around intense legal battles, intricate murder plots, and morally complex characters entangled in webs of deception, betrayal, and revenge. They blend courtroom drama with psychological suspense, often featuring protagonists fighting against or manipulating the justice system to uncover or conceal dark truths.",
+        "exemplar_overview": "When a devoted husband discovers his wife is accused of a shocking crime, he plunges into a dangerous game of cat and mouse with the legal system and hidden enemies, risking everything to prove her innocence while confronting chilling secrets that threaten to destroy them both.",
+        "included_movies": [
+            "Law Abiding Citizen",
+            "The Next Three Days",
+            "Dial M for Murder",
+            "Gone Girl",
+            "Body Heat",
+            "Suspicion",
+            "Fracture",
+            "Arthur",
+            "Witness for the Prosecution",
+            "Jagged Edge",
+            "Primal Fear",
+            "A Time to Kill",
+            "Double Jeopardy",
+            "The Lincoln Lawyer",
+            "Mystic River"
+        ]
+    },
+    {
+        "cluster_id": 426,
+        "custom_genre": "Con & Crossroads",
+        "description": "This genre blends tales of cunning cons and personal crossroads, where characters navigate complex relationships and moral dilemmas often set against challenging backdrops like the Great Depression or personal upheaval.",
+        "exemplar_overview": "In 'The Last Hustle,' a seasoned con artist teams up with a spirited young runaway during the economic turmoil of the 1930s. As they weave through schemes and betrayals, they confront their own fractured pasts and uncertain futures, blurring the lines between family and deception.",
+        "included_movies": [
+            "The Grifters",
+            "Matchstick Men",
+            "Paper Moon",
+            "The Journey of Natty Gann",
+            "The Graduate",
+            "The Last Hustle",
+            "Catch Me If You Can",
+            "The Sting"
+        ]
+    },
+    {
+        "cluster_id": 468,
+        "custom_genre": "WWII Undersea & Survival Thrillers",
+        "description": "This genre combines intense WWII submarine warfare and code-breaking dramas with gripping survival stories set at sea, highlighting human endurance, strategic battles beneath the waves, and the race against time in hostile ocean environments.",
+        "exemplar_overview": "In the midst of WWII, a determined submarine captain leads his crew through deadly underwater battles while a brilliant codebreaker races to crack enemy communications. When disaster strikes, survivors must band together in a lifeboat, fighting the elements and enemy threats to make it back home.",
+        "included_movies": [
+            "Run Silent, Run Deep",
+            "Enigma",
+            "U-571",
+            "Lifeboat",
+            "Das Boot",
+            "The Imitation Game",
+            "The Poseidon Adventure"
+        ]
+    },
+    {
+        "cluster_id": 492,
+        "custom_genre": "Wartime Rebel Ops",
+        "description": "This genre unites films centered on daring, unconventional military missions during World War II, featuring diverse groups of soldiers who defy orders, overcome class divides, and execute high-stakes operations behind enemy lines.",
+        "exemplar_overview": "In the midst of WWII chaos, a ragtag band of soldiers from varied backgrounds unite for a covert mission to infiltrate enemy territory, outsmart ruthless foes, and change the tide of the war through sheer grit and cunning.",
+        "included_movies": [
+            "The Guns of Navarone",
+            "Grand Illusion",
+            "Kelly's Heroes",
+            "The Great Escape",
+            "The Inglorious Bastards",
+            "The Dirty Dozen",
+            "Where Eagles Dare",
+            "Inglourious Basterds",
+            "Fury",
+            "Saving Private Ryan"
+        ]
+    },
+    {
+        "cluster_id": 735,
+        "custom_genre": "Epic Middle-earth Quests",
+        "description": "This genre encompasses grand fantasy adventures set in the richly detailed world of Middle-earth, featuring heroic quests, battles between good and evil, and the struggle for powerful artifacts like the One Ring and the treasure of Erebor.",
+        "exemplar_overview": "In a land torn by ancient rivalries and dark forces, a humble hobbit embarks on a perilous journey with a fellowship of warriors to destroy a powerful ring that could enslave the world. Along the way, dragons, elves, dwarves, and men clash in epic battles that will decide the fate of all.",
+        "included_movies": [
+            "The Hobbit: An Unexpected Journey",
+            "The Hobbit: The Desolation of Smaug",
+            "The Hobbit: The Battle of the Five Armies",
+            "The Lord of the Rings: The Fellowship of the Ring",
+            "The Lord of the Rings: The Two Towers",
+            "The Lord of the Rings: The Return of the King",
+            "The Lord of the Rings"
+        ]
+    },
+    {
+        "cluster_id": 750,
+        "custom_genre": "Nostalgic Coming-of-Age Comedy",
+        "description": "These movies capture the bittersweet, chaotic, and hilarious moments of youth and early adulthood, often set against a backdrop of friendship, self-discovery, and the struggle to transition into the next phase of life. They blend humor with nostalgia, highlighting the awkwardness, rebellion, and camaraderie that define coming-of-age experiences.",
+        "exemplar_overview": "In 'Summer Break Shenanigans,' a group of lifelong friends reunite at their old summer camp to relive the glory days before they all head off to different paths in life. Between wild parties, awkward confessions, and unexpected adventures, they learn that growing up doesn't mean growing apart.",
+        "included_movies": [
+            "Wet Hot American Summer",
+            "American Pie 2",
+            "Superbad",
+            "SLC Punk",
+            "St. Elmo's Fire",
+            "Hot Tub Time Machine",
+            "Frequently Asked Questions About Time Travel",
+            "The World's End",
+            "Ghost World",
+            "Dazed and Confused",
+            "The Breakfast Club",
+            "Can't Hardly Wait",
+            "Adventureland"
+        ]
+    },
+    {
+        "cluster_id": 760,
+        "custom_genre": "Haunted Havens",
+        "description": "This genre unites films centered around eerie, malevolent houses or homes that become the epicenter of supernatural terror, blending haunted house horror with elements of dark comedy and suspense.",
+        "exemplar_overview": "When a quirky family moves into a charming old mansion, they soon discover the house has a mind of its own\u2014filled with mischievous spirits, sinister secrets, and a past that refuses to stay buried. As the walls close in, they must unravel the mystery before the house claims them forever.",
+        "included_movies": [
+            "Beetlejuice",
+            "Paranormal Activity",
+            "Paranormal Activity 2",
+            "Monster House",
+            "The Conjuring",
+            "Poltergeist",
+            "The Amityville Horror",
+            "Insidious",
+            "The Others",
+            "Sinister"
+        ]
+    },
+    {
+        "cluster_id": 1182,
+        "custom_genre": "Mutant Legacy Saga",
+        "description": "This genre unites films centered on the complex lives, struggles, and battles of mutants with extraordinary powers, exploring themes of identity, survival, and the fight for coexistence between mutants and humans across different timelines and generations.",
+        "exemplar_overview": "In a world where mutants are feared and hunted, a diverse group of gifted individuals must come together to confront a rising threat that could annihilate their kind. As past and present collide, they face impossible choices that will define the future of mutantkind and humanity alike.",
+        "included_movies": [
+            "X-Men: Days of Future Past",
+            "X-Men",
+            "X-Men: First Class",
+            "X2",
+            "X-Men: The Last Stand",
+            "X-Men: Apocalypse",
+            "Logan",
+            "Deadpool",
+            "X-Men Origins: Wolverine",
+            "The New Mutants"
+        ]
+    },
+    {
+        "cluster_id": 1209,
+        "custom_genre": "Epic Kung Fu Legends",
+        "description": "This genre combines thrilling martial arts action with rich cultural heritage and epic battles against formidable foes, often blending historical settings or mythic storytelling with heartfelt character journeys.",
+        "exemplar_overview": "In a time when ancient traditions clash with modern threats, a reluctant hero rises to master legendary kung fu techniques and unite diverse allies to protect their homeland from dark forces seeking to destroy their way of life.",
+        "included_movies": [
+            "The Legend of Drunken Master",
+            "Kung Fu Panda",
+            "Kung Fu Panda 2",
+            "Kung Fu Panda 3",
+            "Once Upon a Time in China",
+            "Crouching Tiger, Hidden Dragon",
+            "Hero",
+            "Ip Man"
+        ]
+    },
+    {
+        "cluster_id": 1340,
+        "custom_genre": "Wizarding Epic Saga",
+        "description": "A magical journey following a young wizard's growth from a novice student to a hero battling dark forces, set in a richly detailed world of spells, friendship, and epic quests.",
+        "exemplar_overview": "When an orphaned boy discovers he is a wizard, he embarks on a thrilling adventure at a magical school, uncovering dark secrets, forging unbreakable bonds, and confronting an ancient evil threatening both the magical and non-magical worlds.",
+        "included_movies": [
+            "Harry Potter and the Philosopher's Stone",
+            "Harry Potter and the Chamber of Secrets",
+            "Harry Potter and the Prisoner of Azkaban",
+            "Harry Potter and the Goblet of Fire",
+            "Harry Potter and the Order of the Phoenix",
+            "Harry Potter and the Half-Blood Prince",
+            "Harry Potter and the Deathly Hallows: Part 1",
+            "Harry Potter and the Deathly Hallows: Part 2",
+            "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+            "Fantastic Beasts and Where to Find Them",
+            "Percy Jackson & the Olympians: The Lightning Thief",
+            "The Lord of the Rings: The Fellowship of the Ring"
+        ]
+    },
+    {
+        "cluster_id": 1908,
+        "custom_genre": "Marvel Heroic Saga",
+        "description": "This genre unites the epic journeys of iconic Marvel superheroes as they battle cosmic threats, personal challenges, and global crises. These films blend action-packed superhero exploits with deep character development and interconnected storylines, creating a sprawling saga of heroism and sacrifice.",
+        "exemplar_overview": "When a cosmic tyrant threatens to unravel the fabric of the universe, a band of extraordinary heroes must overcome their differences and unite to protect Earth and beyond. As alliances form and betrayals surface, the fate of all existence hangs in the balance.",
+        "included_movies": [
+            "Captain America: The Winter Soldier",
+            "Avengers: Age of Ultron",
+            "Thor: The Dark World",
+            "Iron Man 3",
+            "Avengers: Infinity War",
+            "Thor: Ragnarok",
+            "Captain America: The First Avenger",
+            "Captain America: Civil War",
+            "Iron Man",
+            "Iron Man 2",
+            "Thor"
+        ]
+    }
+]
